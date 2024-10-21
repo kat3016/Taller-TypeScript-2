@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #007bff;
+  background-color: #0017ff;
   color: white;
   padding: 20px;
   text-align: left;
@@ -37,7 +37,7 @@ h1 {
 
 #promedio-temporadas {
   font-size: 1.2em;
-  color: #007bff;
+  color: #0017ff;
   margin-top: 20px;
   text-align: left;
 }
