@@ -1,0 +1,60 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.table-container {
+  display: flex;
+}
+
+#series-detail {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#promedio-temporadas {
+  font-size: 1.2em;
+  color: #007bff;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.card-body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.card-text {
+  white-space: normal;
+  word-wrap: break-word;
+}
+

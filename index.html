@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Series</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="my-4 d-flex align-items-center">
+      <img src="https://cdn.icon-icons.com/icons2/2632/PNG/512/rent_and_buy_movie_online_icon_159156.png" alt="TV Icon" width="50" class="mr-3">
+      <h1>TV Series</h1>
+    </header>
+
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table table-striped table-hover table-bordered" id="series">
+          <thead class="thead-dark">
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Channel</th>
+              <th>Seasons</th>
+            </tr>
+          </thead>
+        </table>
+        <p id="promedio-temporadas" class="text-left font-weight-bold mt-4"></p>
+      </div>
+      <div class="col-md-4" id="series-detail">
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
